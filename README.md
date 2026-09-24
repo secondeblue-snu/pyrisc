@@ -1,5 +1,9 @@
 # The PyRISC Project
 
+> **Note:** This is a fork of the [PyRISC](https://github.com/snu-csl/pyrisc) project
+> originally developed by Jin-Soo Kim (Seoul National University). It is not
+> maintained or endorsed by the original authors or Seoul National University.
+
 ## Introduction
 
 The PyRISC project aims at providing various RISC-V toolset written in Python for educational purposes. It includes the RISC-V instruction set simulator and pipelined RISC-V processor simulators. All the simulators accept the executable file compiled with the standard GNU toolchain that supports RV32I base instruction set. Some of instructions are intentionally left unimplemented for class projects.
@@ -72,12 +76,15 @@ $ export PATH=/opt/riscv/bin:$PATH
 
 ## License
 
-PyRISC is offered under the terms of the Open Source Initiative BSD 3-Clause License. More information about this license can be found [here](http://opensource.org/licenses/BSD-3-Clause).
+PyRISC is offered under the terms of the Open Source Initiative approved
+The 3-Clause BSD License. More information about this license can be found
+[here](http://opensource.org/licenses/BSD-3-Clause).
+See [LICENSE](LICENSE) for the full text.
 
+## Credits
 
----
-
-Jin-Soo Kim<br>
-Systems Software and Architecture Laboratory<br>
-Seoul National University<br>
-http://csl.snu.ac.kr<br>
+PyRISC was originally developed by Jin-Soo Kim at the Systems Software and
+Architecture Laboratory, Seoul National University (http://csl.snu.ac.kr),
+at [snu-csl/pyrisc](https://github.com/snu-csl/pyrisc), with contributions from Injae Kang.
+This fork is based on [besnu/pyrisc](https://github.com/besnu/pyrisc), which adds
+contributions by Bernhard Egger.
