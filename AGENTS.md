@@ -17,6 +17,18 @@
   4. pr: Only then commit and push.
 - Never commit or push without approval.
 
+### Pull request status
+- Before each push, check the current state of the pull request for the
+  working branch: open, merged, or closed.
+- In the preview step, state which pull request the commit will go into
+  (e.g., "adds to #2 (open)" or "opens a new PR").
+- If the branch's pull request is already merged or closed:
+  - Do not push onto it; new commits there will not show up in any PR.
+  - Start the branch again from the latest default branch, keeping only
+    the commits that have not been merged yet.
+  - Open a new pull request for them, after the usual preview and approval.
+  - Report this in the preview, including any force push it requires.
+
 ### Agent instruction files
 - The same workflow applies to creating or modifying AGENTS.md or CLAUDE.md.
   Show the proposed changes first, and write or commit the file only after approval.
