@@ -21,7 +21,7 @@ Please see the README file in each subdirectory for more information.
 
 ## Prerequisites
 
-The PyRISC toolset requires Python version 3.6 or higher. In addition, the PyRISC toolset depends on Python modules such as `numpy` and `pyelftools`. These modules can be installed on Ubuntu 18.04LTS as follows:
+The PyRISC toolset requires Python version 3.9 or higher. In addition, the PyRISC toolset depends on Python modules such as `numpy` and `pyelftools`. These modules can be installed on Ubuntu 22.04LTS as follows:
 
 ```
 $ sudo apt-get install python3-numpy python3-pyelftools
@@ -33,7 +33,7 @@ In order to work with the PyRISC toolset, you need to build a RISC-V GNU toolcha
 
 ### 1. Install prerequisite packages first
 
-For Ubuntu 18.04LTS, perform the following command:
+For Ubuntu 22.04LTS, perform the following command:
 ```
 $ sudo apt-get install autoconf automake autotools-dev curl libmpc-dev
 $ sudo apt-get install libmpfr-dev libgmp-dev gawk build-essential bison flex

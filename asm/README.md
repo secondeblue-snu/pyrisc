@@ -17,7 +17,7 @@ This directory contains the following RISC-V assembly programs and their pre-com
 
 ## Building the executable file
 
-To build the PyRISC-compatible RISC-V executable file, just type `make`. Each assembly file is compiled using 32-bit RISC-V compiler that supports RV32I RISC-V instruction set. For the given object file(s), the executable binary is generated using the linker script named `link.ld`. The linker script is used to place each section in the predefined memory address. Note that you should build the RISC-V GNU Toolchain first as specified in the PyRISC top-level [README.md](https://github.com/snu-csl/pyrisc/blob/master/README.md) file.
+To build the PyRISC-compatible RISC-V executable file, just type `make`. Each assembly file is compiled using 32-bit RISC-V compiler that supports RV32I RISC-V instruction set. For the given object file(s), the executable binary is generated using the linker script named `link.ld`. The linker script is used to place each section in the predefined memory address. Note that you should build the RISC-V GNU Toolchain first as specified in the PyRISC top-level [README.md](../README.md) file.
 
 ```
 $ make
