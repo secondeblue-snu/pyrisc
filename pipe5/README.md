@@ -54,7 +54,7 @@ The textbook, _Computer Organization and Design: RISC-V Edition_ (by David A. Pa
 
 ## Running __snurisc5__
 
-First, you need to install Python modules, `numpy` and `pyelftools`, to run __snurisc__. Please refer to the top-level PyRISC [README.md](https://github.com/snu-csl/pyrisc/blob/master/README.md) file for installation steps for these modules.
+First, you need to install Python modules, `numpy` and `pyelftools`, to run __snurisc__. Please refer to the top-level PyRISC [README.md](../README.md) file for installation steps for these modules.
 
 Basically, __snurisc5__ requires the name of the executable file to run, as shown in the following. You can print various log information each cycle or at the end of the program execution by using the `-l` argument. You can also configure the simulator to print logs after a certain number of cycles by using the `-c` argument.
 
@@ -77,7 +77,7 @@ Usage: ./snurisc5.py [-l n] [-c m] filename
 
 ## Building an Executable File
 
-__snurisc5__ accepts a RISC-V executable file compiled by the standard RISC-V GNU toolchain that supports the RV32I base instruction set. In order to build the RISC-V GNU toolchain for use with __snurisc5__, please refer to the [README.md](https://github.com/snu-csl/pyrisc/blob/master/README.md) in the PyRISC top-level directory.
+__snurisc5__ accepts a RISC-V executable file compiled by the standard RISC-V GNU toolchain that supports the RV32I base instruction set. In order to build the RISC-V GNU toolchain for use with __snurisc5__, please refer to the [README.md](../README.md) in the PyRISC top-level directory.
 
 There are several restrictions when an executable file is built from a RISC-V assembly program on __snurisc5__.
 1. The text section should begin at the memory address 0x80000000, which is the start address of the Instruction Memory (imem).
